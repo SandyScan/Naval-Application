@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".Admin_Login_Page"
+            android:exported="false" />
+        <activity
+            android:name=".Delete_Notice"
+            android:exported="false" />
+        <activity
+            android:name=".Upload_PDF"
+            android:exported="false" />
+        <activity
+            android:name=".Upload_Notice"
+            android:exported="false" />
+        <activity
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
+            android:name=".Training_Videos_Senior_Common_Subjects"
+            android:exported="false" />
+        <activity
+            android:name=".Training_Videos_Junior_Common_Subjects"
+            android:exported="false" />
+        <activity
+            android:name=".Training_Videos_Junior_Special_Subjects"
+            android:exported="false" />
+        <activity
+            android:name=".Training_Videos_Senior_Special_Subjects"
+            android:exported="false" />
+        <activity
+            android:name=".Main_Query"
+            android:exported="false" />
+        <activity
+            android:name=".Main_Daily_Updates"
+            android:exported="false" />
+        <activity
+            android:name=".Main_Training_Videos_Drill"
+            android:exported="false" />
+        <activity
+            android:name=".Main_Training_Videos"
+            android:exported="false" />
+        <activity
+            android:name=".Presic_Senior_Special_Subject"
+            android:exported="false" />
+        <activity
+            android:name=".Presic_Junior_Special_Subject"
+            android:exported="false" />
+        <activity
+            android:name=".Presic_Senior_Common_Subject"
+            android:exported="false" />
+        <activity
+            android:name=".Presic_Junior_Common_Subject"
+            android:exported="false" />
+        <activity
+            android:name=".Main_Precis"
+            android:exported="false" />
+        <activity
+            android:name=".Syllabus_Senior_Special_Subject"
+            android:exported="false" />
+        <activity
+            android:name=".Syllabus_Junior_Special_Subject"
+            android:exported="false" />
+        <activity
+            android:name=".Syllabus_Senior_Common_Subject"
+            android:exported="false" />
+        <activity
+            android:name=".Syllabus_Junior_Common_Subject"
+            android:exported="false" />
+        <activity
+            android:name=".Syllabus_Main"
+            android:exported="false" />
+        <activity
+            android:name=".About_NCC_Song"
+            android:exported="false" />
+        <activity
+            android:name=".About_Pldege"
+            android:exported="false" />
+        <activity
+            android:name=".About_Motto"
+            android:exported="false" />
+        <activity
+            android:name=".About_Aim"
+            android:exported="false" />
+        <activity
+            android:name=".About_NCC"
+            android:exported="false" />
+        <activity
+            android:name=".Ncc_Main"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

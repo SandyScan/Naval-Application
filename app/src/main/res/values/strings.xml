@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NAVAL NCC</string>
+    <string name="paragraph">\n\nThe NCC, started in 1948, with 20000 cadets, today is the largest uniformed youth organisation in the world with more than 14.5 lakh cadets.
+        \n\nWith Headquarters (HQs) at New Delhi, NCC, a tri Service organisation, today has 17 State Directorates, 98 Group HQs and 825 NCC Units from Army, Air Force and Naval Wings.
+        \n\nStudents from Schools and Colleges, join NCC on volunteer basis as Junior cadets for two years and as Senior cadets for three years.
+        \n\nAt the culmination of institutional and camp training, successful Junior cadets are awarded A certificate and Senior cadets are awarded B / C certificate.
+        \n\nCadets in NCC are exposed to training on Service subjects, Social Service and Community Development,Disaster Management, Attachment training with Army/Air Force/Navy, Sports and Adventure activities.
+        \n\nCore values of NCC include sense of patriotic commitment, National unity, values enshrined in the Indian Constitution, a healthy life style, self-awareness and values of honesty, truthfulness, perseverance and hard work etc.
+    </string>
+    <string name="About_Aim_Paragraph_1">\u25BA To create a human resource of organised, trained and motivated youth.
+    \n\n \u25BA To provide Leadership in all walks of life and be always available for the service of the Nation.</string>
+    <string name="About_Aim_Paragraph_2">\u25BA To provide a suitable environment to motivate the Youth to take up a career in the Armed Forces.</string>
+    <string name="About_Aim_Paragraph_3">\u25BA To develop character, comradeship,discipline, leadership, secular outlook, spirit of adventure and ideals of selfless service amongst the youth of the country.</string>
+    <string name="About_pledge">\n\nWe the cadets of the National Cadet Corps, do solemnly pledge that we shall always uphold the unity of India.
+        \n\nWe resolve to be disciplined and responsible citizen of our Nation.
+        \n\nWe shall undertake positive community service in the spirit of selflessness and concern for our fellow beings.</string>
+    <string name="About_ncc_song">\n\nHum Sab Bharatiya Hain, \nApni Manzil Ek Hai, \nHa Ha Ha Ek Hai, Ho Ho Ho Ek Hai, \nHum Sab Bharatiya Hain.
+        \n\nKashmir Ki Dharti Rani Hai, \nSartaj Himalaya Hai, \nSadiyon Se Humne Isko Apne Khoon Se Pala Hai, \nDesh Ki Raksha Ki Khatir Hum Shamshir Utha Lenge, \nHum Shamshir Utha Lenge, \nBikhre Bikhre Taare Hai Hum, \nLekin Jhilmil Ek Hai, \nHa Ha Ha Ek Hai, Ho Ho Ho Ek Hai, \nHum Sab Bharatiya Hain.
+        \n\nMandir Gurudware Bhi Hain Yahan, \nAur Masjid Bhi Hai Yahan, \nGirija Ka Hai Ghariyaal Kahin, \nMullah Ki Kahin Hai Azaan, \nEk Hi Apna Ram Hai, \nEk Hi Allah Taala Hai, \nEk Hi Allah Taala Hai, \nRang Birange Deepak Hain Hum, \nLekin Jagmag Ek Hai, \nHa Ha Ha Ek Hai, Ho Ho Ho Ek Hai, \nHum Sab Bharatiya Hain.</string>
+
+</resources>

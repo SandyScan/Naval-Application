@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "801766581584",
+    "project_id": "naval-application-37dad",
+    "storage_bucket": "naval-application-37dad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801766581584:android:ead72adbf2c0be550f7855",
+        "android_client_info": {
+          "package_name": "com.example.nccapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801766581584-top8ck3t3igq2mpcar4n99da4n45d1lj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLSL5VT68RkY2V_cdgAbZpH8TsCNIZ2Cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801766581584-top8ck3t3igq2mpcar4n99da4n45d1lj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

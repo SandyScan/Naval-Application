@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F30606"
+    tools:context=".Training_Videos_Senior_Special_Subjects">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="100dp"
+                    android:src="@drawable/ncc_logo">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="60dp"
+                    android:text="NATIONAL CADET CORPS"
+                    android:textColor="#F30606"
+                    android:textSize="20sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#BDBCBC"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Naval Orientation"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nvl_ornt_sr_spl_sub_arm_navy_capsu"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="-10dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+
+                    >
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:text="Armed Forces and Navy Capsule"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nvl_ornt_sr_spl_sub_EEZ_ICG"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="-10dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+
+                    >
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:text="EEZ, Maritime Security and ICG"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nvl_ornt_sr_spl_sub_nvl_camp_expnd"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="-10dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+
+                    >
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:text="Naval Campaigns and Expeditions"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nvl_ornt_sr_spl_sub_modes_merchnt_navy"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="-10dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:text="Modes of Entry - IN, ICG, Merchant Navy"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#BDBCBC"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Seamanship"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/semshp_sr_spl_sub_anchr_wrk"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="-10dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+
+                    >
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:text="Anchor Work"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/semshp_sr_spl_sub_rging_capsu"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="-10dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:text="Rigging Capsule"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/semshp_sr_spl_sub_boat_wrk_prts"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="-10dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+
+                    >
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:text="Boat Work - Parts of Boat"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/semshp_sr_spl_sub_boat_wrk_pulng"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="-10dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+
+                    >
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:text="Boat Work - Boat Pulling Instructions"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#BDBCBC"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Naval Communication - Semaphore"
+                        android:textColor="@color/black"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nvl_com_sr_spl_sub_nvl_com_smphr"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="-10dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+
+                    >
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:text="Naval Communication - Semaphore"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#BDBCBC"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Navigation"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nvgton_sr_spl_sub_chrt_wrk"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="-10dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+
+                    >
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:text="Navigation and Chart Work"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/nvgton_sr_spl_sub_winds_tides"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="-10dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+
+                    >
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:text="Winds and Tides"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#BDBCBC"
+                    android:gravity="center_vertical"
+                    android:padding="11dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Firefighting, Flooding and Damage Control"
+                        android:textColor="@color/black"
+                        android:textSize="19sp"
+                        android:textStyle="bold"
+                        android:gravity="center">
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/fld_dmg_cntrl_sr_spl_sub_mthd_fr_fhtin"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="-10dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+
+                    >
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="60dp"
+                        android:gravity="center"
+                        android:text="Types of Fires, Fire Extinguishers \nand Method of Fire Fighting"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold"></TextView>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
